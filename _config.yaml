@@ -1,5 +1,6 @@
-url: "https://hemthead.ddns.net"
-baseurl: ""
+url: "https://hemthead.github.io"
+baseurl: "/website"
+
 title: "Hemthead's Hideout"
 
 exclude:
