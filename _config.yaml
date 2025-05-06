@@ -1,5 +1,6 @@
 url: "https://hemthead.github.io"
-baseurl: "/website/"
+baseurl: "/website"
+
 title: "Hemthead's Hideout"
 
 exclude:
@@ -8,3 +9,5 @@ exclude:
   - "*/README.md"
   - "sync.sh"
   - "tags"
+  - "*.nix"
+  - "flake.lock"
