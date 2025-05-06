@@ -1,0 +1,9 @@
+url: "https://hemthead.ddns.net"
+baseurl: "/"
+title: "Hemthead's Hideout"
+
+exclude:
+  - "todo.md"
+  - ".*"
+  - "*/README.md"
+  - "sync.sh"
