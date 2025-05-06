@@ -8,3 +8,5 @@ exclude:
   - "*/README.md"
   - "sync.sh"
   - "tags"
+  - "*.nix"
+  - "flake.lock"
