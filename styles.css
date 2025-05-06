@@ -1,0 +1,64 @@
+:root {
+    --primary-color: black;
+    --bg-color: #efefea;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --bg-color: black;
+        --primary-color: white;
+    }
+}
+
+*:not(a) {
+    color: var(--primary-color);
+    /*border-color: var(--secondary-color)*/
+    /*max-height: 100%;*/
+
+    font-family: "DejaVu Serif", serif;
+}
+
+html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+body {
+    height: 100%;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    background: var(--bg-color);
+}
+
+body>* {
+    margin: 10px;
+}
+
+h1 {
+    font-size: 2em;
+    margin-block: 0.67em;
+}
+
+#main-content {
+    flex-grow: 1;
+    height: 0;
+    padding: 10px;
+    border: 3px ridge;
+    overflow: scroll;
+}
+
+#under-construction-img {
+    width: 25%;
+    min-width: 250px;
+    max-width: 1000px;
+    image-rendering: crisp-edges;
+}
+
+#footer {
+    flex-grow: 0;
+    border-top: 1px solid;
+    height: fit-content;
+}
