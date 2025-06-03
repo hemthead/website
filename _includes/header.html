@@ -1,0 +1,7 @@
+<header id="header">
+  <nav><ul class="horizontal-list">
+    <li><a {% if page.nav-tab == "main" %} id="current-nav-tab" {% endif %} href="{{site.baseurl}}/">Main Page</a></li>
+    <li><a {% if page.nav-tab == "bio" %} id="current-nav-tab" {% endif %} href="{{site.baseurl}}/bio.html" class="active">Bio</a></li>
+    <li><a {% if page.nav-tab == "blog" %} id="current-nav-tab" {% endif %} href="{{site.baseurl}}/blog.html">Blog</a></li>
+  </ul></nav>
+</header>
